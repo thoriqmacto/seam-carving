@@ -164,6 +164,27 @@ files:
   - name: test/trees.png
     visible: false
     learner_created: false
+  - name: test/out3.png
+    visible: true
+    learner_created: true
+  - name: test/out2.png
+    visible: true
+    learner_created: true
+  - name: test/out1.png
+    visible: true
+    learner_created: true
+  - name: test/blue-negative.png
+    visible: true
+    learner_created: true
+  - name: test/trees-negative.png
+    visible: true
+    learner_created: true
+  - name: test/small-negative.png
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/projects/100/stages/551/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 15 Dec 2023 16:09:18 UTC"
 record: -1
