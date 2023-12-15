@@ -1,0 +1,30 @@
+# IDE related files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Build output
+out/
+target/
+build/
+
+# Logs and temp files
+*.log
+*.log.*
+*~
+*.swp
+
+# User-specific files & Dependency management
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/shelf/
+.idea/libraries/
+
+# Operating System-specific files
+.DS_Store
+Thumbs.db
+
+# Gradle-specific files
+.gradle/

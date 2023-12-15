@@ -1,0 +1,15 @@
+type: code
+files:
+  - name: src/Main.kt
+    visible: true
+    highlight_level: NONE
+    text: "import java.awt.Color\nimport java.awt.image.BufferedImage  \n\nfun drawCircles():\
+    \ BufferedImage {\n  // Add your code here\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16353#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Thu, 14 Dec 2023 20:23:29 UTC"
+record: -1
+submission_language: kotlin
