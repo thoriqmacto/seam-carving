@@ -51,8 +51,8 @@ class SeamCarving{
             val maxEnergy = getMaxEnergy(energy)
             val normEnergy = normalizeEnergies(energy,maxEnergy)
 
-            for (x in normEnergy.indices){
-                for (y in normEnergy[0].indices){
+            for (x in 0 until image.width){
+                for (y in 0 until image.height){
                     val colorNew = Color(normEnergy[x][y],normEnergy[x][y],normEnergy[x][y])
                     image.setRGB(x,y,colorNew.rgb)
                 }
@@ -83,8 +83,7 @@ class SeamCarving{
 
         for (x in energy.indices){
             for (y in energy[0].indices){
-                val energyDouble = energy[x][y]
-                output[x][y] = (255.0 * energyDouble / maxEnergyValue).toInt()
+                output[x][y] = (255.0 * energy[x][y] / maxEnergyValue).toInt()
             }
         }
 
