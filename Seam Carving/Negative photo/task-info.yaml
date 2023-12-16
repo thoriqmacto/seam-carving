@@ -182,9 +182,9 @@ files:
   - name: test/small-negative.png
     visible: true
     learner_created: true
-feedback_link: https://hyperskill.org/projects/100/stages/551/implement#comment
+feedback_link: https://hyperskill.org/learn/step/9016#comment
 status: Solved
 feedback:
   message: Congratulations!
   time: "Fri, 15 Dec 2023 16:09:18 UTC"
-record: -1
+record: 3

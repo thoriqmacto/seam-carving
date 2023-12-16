@@ -186,9 +186,15 @@ files:
   - name: test/small-energy.png
     visible: true
     learner_created: true
-feedback_link: https://hyperskill.org/projects/100/stages/552/implement#comment
-status: Failed
+  - name: test/blue-energy.png
+    visible: true
+    learner_created: true
+  - name: test/trees-energy.png
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/9017#comment
+status: Solved
 feedback:
-  message: Execution failed
-  time: "Sat, 16 Dec 2023 12:19:50 UTC"
+  message: Congratulations!
+  time: "Sat, 16 Dec 2023 20:20:43 UTC"
 record: -1
